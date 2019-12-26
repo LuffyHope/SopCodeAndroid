@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="@dimen/m_10"
-        android:text="迎英超2019/19新赛季！"
+        android:text="happy happy"
         android:textColor="#343434"
         android:textSize="@dimen/textsize_14" />
 

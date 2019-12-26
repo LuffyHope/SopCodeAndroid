@@ -21,6 +21,7 @@ import com.example.sopcode.popwindow.PopupWindow1;
 import com.example.sopcode.recyclerheadtest.RecyclerDifferentItemActivity;
 import com.example.sopcode.recyclerheadtest.RecyclerTestActivity;
 import com.example.sopcode.studyui.CustomizeActivity;
+import com.example.sopcode.system_promise_summary.activity.SystemSummaryActivity;
 import com.example.sopcode.tesanimation.ActivityTestAnimation;
 import com.example.sopcode.testbuttcolor.TestActivityButton;
 import com.example.sopcode.testdownfresh.DownFreshActivity;
@@ -105,12 +106,13 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
         TextView tv_text_view_group = findViewById(R.id.tv_text_view_group);
         TextView tv_text_repeat = findViewById(R.id.tv_text_repeat);
         TextView tv_text_lunbo = findViewById(R.id.tv_text_lunbo);
+        TextView tv_to_system = findViewById(R.id.tv_to_system);
         circle_button = findViewById(R.id.circle_button);
         EventHelper.click(this, test, tv_intent, tv_dialog, tv_recycle, tv_test_ui, tv_add_linear,
                 tv_test_rxjava, tv_test_rxzip, tv_test_rxfilter, tv_delete_repyte, tv_okgo_down_bitmap
                 , tv_test_hy_recycler, tv_test_retrofit, tv_test_eventbus, tv_test_screen_change,
                 tv_add_permission, tv_test_layout_animation, tv_customize, tv_dwon_fresh, circle_button,
-                tv_change_butt, tv_text_recycler_item, tv_text_view_group, tv_text_repeat, tv_text_lunbo);
+                tv_change_butt, tv_text_recycler_item, tv_text_view_group, tv_text_repeat, tv_text_lunbo,tv_to_system);
 
         imageView = findViewById(R.id.image);
     }
@@ -204,6 +206,9 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tv_text_lunbo:
                 intentToActivity(LunboActivity.class);
+                break;
+            case R.id.tv_to_system:
+                intentToActivity(SystemSummaryActivity.class);
                 break;
             default:
                 break;

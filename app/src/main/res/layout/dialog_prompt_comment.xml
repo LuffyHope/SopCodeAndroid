@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="288dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/dialog_white_bg_shape10"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="10dp"
+            android:text="温馨提示"
+            android:textColor="#343434"
+            android:textSize="@dimen/text_18" />
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/m_1"
+        android:background="#FFF4F4F4"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:minHeight="@dimen/m_100"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="检测到您没有打开通知权限，是否去打开"
+        android:textColor="#666666"
+        android:textSize="16sp" />
+
+
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/m_1"
+        android:background="#FFF4F4F4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_40"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bt_cancle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/m_40"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#666666" />
+        <View android:layout_width="@dimen/m_1"
+            android:layout_height="match_parent"
+            android:background="#FFF4F4F4"/>
+
+        <TextView
+            android:id="@+id/bt_button"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/m_40"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#F54252" />
+
+    </LinearLayout>
+</LinearLayout>

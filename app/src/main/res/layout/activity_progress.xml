@@ -49,7 +49,7 @@
             android:gravity="center_vertical"
             android:marqueeRepeatLimit="marquee_forever"
             android:singleLine="true"
-            android:text="关于棋牌游戏平台将于09月27日关闭的公告关于棋牌游戏平台将于09月27日"
+            android:text="跑马灯                                                                "
             android:textColor="#1E1E1E" />
 
         <com.example.sopcode.view.CircleProgress
