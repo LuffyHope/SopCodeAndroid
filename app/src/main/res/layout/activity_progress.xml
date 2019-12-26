@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tc="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bu_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试ProgressBar" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/m_20"
+            android:layout_marginBottom="@dimen/m_10" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试EditText的焦点获取" />
+
+        <TextView
+            android:id="@+id/tv_lunbo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/m_10"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="关于棋牌游戏平台将于09月27日关闭的公告关于棋牌游戏平台将于09月27日"
+            android:textColor="#1E1E1E" />
+
+        <com.example.sopcode.view.CircleProgress
+            android:id="@+id/progress_circle"
+            android:layout_width="@dimen/m_50"
+            android:layout_height="@dimen/m_50"
+            android:layout_gravity="center_horizontal"
+            tc:circleColor="#9D7DFF"
+            tc:radius="20dp"
+            tc:ringBgColor="#FB8262"
+            tc:ringColor="@color/white"
+            tc:strokeWidth="3dp" />
+
+        <ImageView
+            android:id="@+id/image_verify"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_choose_data"
+                android:layout_width="@dimen/m_0"
+                android:layout_height="@dimen/m_50"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="选择日期"
+                android:textSize="@dimen/textsize_24" />
+
+            <TextView
+                android:id="@+id/tv_choose_city"
+                android:layout_width="@dimen/m_0"
+                android:layout_height="@dimen/m_50"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="选择城市"
+                android:textSize="@dimen/textsize_24" />
+
+            <TextView
+                android:id="@+id/tv_choose_simple"
+                android:layout_width="@dimen/m_0"
+                android:layout_height="@dimen/m_50"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="单项选择"
+                android:textSize="@dimen/textsize_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/m_50"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edit_print"
+                    android:layout_width="@dimen/m_0"
+                    android:layout_height="@dimen/m_50"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/image_eye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/m_8"
+                    android:layout_marginRight="@dimen/m_13"
+                    android:padding="@dimen/m_8"
+                    android:src="@drawable/selector_eye"
+                    android:tag="show" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_test_strngth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试网络强度" />
+
+        <com.example.sopcode.uitest.PasswordStrengthView
+            android:id="@+id/check_password_strength"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_test_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试 0" />
+
+            <Button
+                android:id="@+id/bt_test_progress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试 1" />
+
+            <Button
+                android:id="@+id/bt_test_progress3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试 2" />
+
+        </LinearLayout>
+
+
+        <com.example.sopcode.uitest.RegistProgressView
+            android:id="@+id/regist_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.sopcode.view.MyEditText
+            android:id="@+id/my_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="match_parent"
+                android:text="ceshi anniu "
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

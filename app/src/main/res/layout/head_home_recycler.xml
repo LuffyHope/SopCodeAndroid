@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/unlogin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/m_10"
+            android:gravity="center"
+            android:text="开户"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="游戏列表"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/m_10"
+            android:gravity="center"
+            android:text="登陆"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_save_acount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_70"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_save_money"
+            android:layout_width="@dimen/m_0"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/m_20"
+            android:paddingTop="@dimen/m_5"
+            android:paddingBottom="@dimen/m_5"
+            android:text="存款"
+            android:textSize="@dimen/textsize_16" />
+
+
+        <TextView
+            android:id="@+id/tv_take_money"
+            android:layout_width="@dimen/m_0"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/m_20"
+            android:paddingTop="@dimen/m_5"
+            android:paddingBottom="@dimen/m_5"
+            android:text="取款"
+            android:textSize="@dimen/textsize_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/m_20"
+        android:paddingTop="@dimen/m_7"
+        android:paddingBottom="@dimen/m_7"
+        android:text="彩票游戏" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/m_50"
+    android:layout_marginTop="@dimen/m_10"
+    android:background="@drawable/selector_activity_item_bg"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="@dimen/m_20"
+        android:layout_height="@dimen/m_20"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/m_20"
+        android:src="@drawable/activity_ico0" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/m_10"
+        android:text="迎英超2019/19新赛季！"
+        android:textColor="#343434"
+        android:textSize="@dimen/textsize_14" />
+
+</LinearLayout>

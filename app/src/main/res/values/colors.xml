@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line">#99000000</color>
+    <color name="title_text_color">#EB6A02</color>
+    <color name="white">#ffffff</color>
+    <color name="color_f3f3f3">#F3F3F3</color>
+
+    <color name="color_f542">#F54252</color>
+    <color name="color_ff93">#FF935C</color>
+    <color name="color_c5c8">#C5C812</color>
+    <color name="color_01c9">#01C988</color>
+    <color name="color_CCCC">#CCCCCC</color>
+
+
+    <color name="color_999999">#999999</color>
+    <color name="_343434">#343434</color>
+    <color name="button_f54252">#F54252</color>
+</resources>

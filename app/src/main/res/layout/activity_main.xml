@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".TestActivity">
+
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="Bottom dialog"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_intent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="TEST INTENT"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="普通 DIALOG"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="RECYCLEVIEW"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_ui"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试 progress进度条 edittext的焦点 跑马灯  圆形进度 验证码 生日城市选择器 密码显示与隐藏"
+            android:textSize="@dimen/textsize_18" />
+
+        <TextView
+            android:id="@+id/tv_add_linear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="横向动态添加布局"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_rxjava"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="Rxjava的map链式请求"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_rxzip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="Rxjava的ZIP链式请求"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_rxfilter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="Rxjava的filter过滤"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_delete_repyte"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="List去掉重复的ArrayList"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_okgo_down_bitmap"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="OKGO图片下载"
+            android:textSize="@dimen/textsize_24" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_test_hy_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试弘扬的recyclerview"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试Retrofit 响应数据的处理"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_eventbus"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试EVENTBUS是否可以在Fragment中使用"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_screen_change"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试Activity横屏竖屏的切换"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_add_permission"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="动态添加权限"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_test_layout_animation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试LayoutAnimation布局效果"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_customize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试自定义"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_dwon_fresh"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试recyclerview上拉加载更多"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_change_butt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试RXjava监听editText改变按钮颜色"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_text_recycler_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试RecyclerView多级item"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_text_view_group"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试destroyDrawingCache方法"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_text_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试Rxjava重复事件"
+            android:textSize="@dimen/textsize_24" />
+
+        <TextView
+            android:id="@+id/tv_text_lunbo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="测试轮播图"
+            android:textSize="@dimen/textsize_24" />
+
+        <com.example.sopcode.suspension_button.SuspensionButtion
+            android:id="@+id/circle_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:src="@mipmap/tianjia" />
+    </LinearLayout>
+</ScrollView>

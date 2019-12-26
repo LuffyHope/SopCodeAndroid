@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="PopupAnimation" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@animator/popup_in</item>
+        <item name="android:windowExitAnimation">@animator/popup_out</item>
+    </style>
+    <style name="PopupAnimationLeft" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@animator/popup_leftin</item>
+        <item name="android:windowExitAnimation">@animator/popup_leftout</item>
+    </style>
+
+    <style name="PopupAnimationRight" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@animator/popup_rightin</item>
+        <item name="android:windowExitAnimation">@animator/popup_rightout</item>
+    </style>
+
+    <style name="PopupAnimationTop" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@animator/popup_topin</item>
+        <item name="android:windowExitAnimation">@animator/popup_topout</item>
+    </style>
+    <style name="FadeInPopWin">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowEnterAnimation">@anim/pop_win_content_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_win_content_fade_out</item>
+    </style>
+</resources>

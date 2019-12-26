@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_50"
+        android:gravity="center"
+        android:text="申请权限"
+        android:textSize="@dimen/m_20" />
+
+</android.support.constraint.ConstraintLayout>

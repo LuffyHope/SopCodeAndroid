@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/m_100"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/m_10"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/m_20">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="@dimen/m_40"
+        android:layout_height="@dimen/m_40"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/m_20"
+        android:background="#ff00ff"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="重庆时时彩"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_16" />
+
+        <TextView
+            android:id="@+id/tv_prive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/m_2"
+            android:text="时间"
+            android:textSize="@dimen/textsize_14" />
+    </LinearLayout>
+
+
+</LinearLayout>
