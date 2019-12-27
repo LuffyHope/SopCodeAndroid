@@ -32,6 +32,7 @@ import com.example.sopcode.testscreenchange.TestScreenActivity;
 import com.example.sopcode.uitest.AddUiTestActivity;
 import com.example.sopcode.uitest.UITestActivity;
 import com.example.sopcode.utils.EventHelper;
+import com.example.sopcode.utils.activity.TestUtilsActivity;
 import com.facebook.common.logging.LoggingDelegate;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.BitmapCallback;
@@ -66,7 +67,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
-        Log.d(TAG, "屏幕  密度：onCreate: "+Resources.getSystem().getDisplayMetrics().density);
+        Log.d(TAG, "屏幕  密度：onCreate: " + Resources.getSystem().getDisplayMetrics().density);
 
         String json = "{\"data\":{\"key\":\"value\"},\"msg\":\"取款金额不足以抵扣手续费,请重新输入！\",\"status\":\"888888\"}";
         JSONObject jsons = null;
@@ -75,7 +76,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
             String data = jsons.getString("data");
             JSONObject dung = new JSONObject(data);
             dung.put("dung", true);
-            Log.d(TAG, "onCreate: "+dung.toString());
+            Log.d(TAG, "onCreate: " + dung.toString());
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -107,12 +108,14 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
         TextView tv_text_repeat = findViewById(R.id.tv_text_repeat);
         TextView tv_text_lunbo = findViewById(R.id.tv_text_lunbo);
         TextView tv_to_system = findViewById(R.id.tv_to_system);
+        TextView tv_to_utils = findViewById(R.id.tv_to_utils);
         circle_button = findViewById(R.id.circle_button);
         EventHelper.click(this, test, tv_intent, tv_dialog, tv_recycle, tv_test_ui, tv_add_linear,
                 tv_test_rxjava, tv_test_rxzip, tv_test_rxfilter, tv_delete_repyte, tv_okgo_down_bitmap
                 , tv_test_hy_recycler, tv_test_retrofit, tv_test_eventbus, tv_test_screen_change,
                 tv_add_permission, tv_test_layout_animation, tv_customize, tv_dwon_fresh, circle_button,
-                tv_change_butt, tv_text_recycler_item, tv_text_view_group, tv_text_repeat, tv_text_lunbo,tv_to_system);
+                tv_change_butt, tv_text_recycler_item, tv_text_view_group, tv_text_repeat, tv_text_lunbo,
+                tv_to_system, tv_to_utils);
 
         imageView = findViewById(R.id.image);
     }
@@ -209,6 +212,9 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tv_to_system:
                 intentToActivity(SystemSummaryActivity.class);
+                break;
+            case R.id.tv_to_utils:
+                intentToActivity(TestUtilsActivity.class);
                 break;
             default:
                 break;

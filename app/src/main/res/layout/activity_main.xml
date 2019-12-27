@@ -215,6 +215,14 @@
             android:text="android 系统相关权限汇总"
             android:textSize="@dimen/textsize_24" />
 
+        <TextView
+            android:id="@+id/tv_to_utils"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_50"
+            android:gravity="center"
+            android:text="android 工具类汇总"
+            android:textSize="@dimen/textsize_24" />
+
         <com.example.sopcode.suspension_button.SuspensionButtion
             android:id="@+id/circle_button"
             android:layout_width="48dp"

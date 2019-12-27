@@ -71,6 +71,7 @@
         <activity android:name=".testrxjava.RxjavaActivity" />
         <activity android:name=".lunbo.LunboActivity" />
         <activity android:name=".system_promise_summary.activity.SystemSummaryActivity" />
+        <activity android:name=".utils.activity.TestUtilsActivity" />
     </application>
 
 </manifest>
